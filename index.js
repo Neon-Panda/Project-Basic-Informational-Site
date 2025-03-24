@@ -1,6 +1,5 @@
 const http = require("node:http");
 const fs = require("node:fs");
-const { stringify } = require("node:querystring");
 
 http
   .createServer((request, response) => {
